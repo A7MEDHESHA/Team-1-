@@ -1,0 +1,248 @@
+.hero-section {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 4rem;
+  color: white;
+}
+
+.hero-subtitle {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--color-tertiary);
+  margin-bottom: 0.5rem;
+}
+
+.hero-title {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 2.5rem;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+button.btn-lumina-primary {
+  background-color: var(--color-secondary);
+  color: white;
+  border: 1px solid var(--color-secondary);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.7rem 1.5rem;
+}
+
+button.btn-lumina-primary:hover {
+  background-color: #047857;
+  color: white;
+}
+
+button.btn-lumina-outline {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.7rem 1.5rem;
+}
+
+button.btn-lumina-outline:hover {
+  background-color: white;
+  color: var(--color-primary);
+}
+.collections-heading {
+  font-family: var(--font-headline);
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.view-all-link {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 2px;
+}
+
+.collection-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+
+.large-card {
+  height: 100%;
+  min-height: 460px;
+}
+
+.small-card {
+  height: 220px;
+}
+
+.collection-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+}
+
+.collection-text {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 1.2rem;
+}
+
+.collection-text h5 {
+  font-family: var(--font-headline);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.collection-text p {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  margin: 0;
+  opacity: 0.9;
+}
+/* OUR PHILOSOPHY */
+.philosophy-section {
+  background-color: var(--color-tertiary);
+}
+
+.philosophy-image-wrap {
+  position: relative;
+}
+
+.philosophy-main-img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.philosophy-label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-secondary);
+  margin-bottom: 0.8rem;
+}
+
+.philosophy-heading {
+  font-family: var(--font-headline);
+  font-style: italic;
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin-bottom: 1.2rem;
+}
+
+.philosophy-text {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-neutral);
+  margin-bottom: 1rem;
+}
+
+.full-story-link {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 4px;
+}
+
+/* NEWSLETTER */
+.newsletter-section {
+  background-color: white;
+}
+
+.newsletter-heading {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  margin-bottom: 0.8rem;
+}
+
+.newsletter-text {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-neutral);
+  max-width: 500px;
+  margin: 0 auto 2rem;
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 480px;
+  border: 1px solid #e2e8f0;
+}
+
+.newsletter-input {
+  flex: 1;
+  border: none;
+  padding: 0.9rem 1rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  outline: none;
+}
+
+.newsletter-btn {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 0.9rem 1.5rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-neutral);
+}
+
+.social-icon i {
+  font-size: 1.3rem;
+}
+
+.social-icon span {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+}
