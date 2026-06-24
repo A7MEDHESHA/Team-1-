@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #0F172A;
+  --color-secondary: #059669;
+  --color-tertiary: #F8FAFC;
+  --color-neutral: #64748B;
+
+  --font-headline: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-primary);
+  margin: 0;
+}

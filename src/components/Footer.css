@@ -1,0 +1,61 @@
+.lumina-footer {
+  background-color: var(--color-tertiary);
+}
+
+.footer-logo {
+  font-family: var(--font-headline);
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
+
+.footer-text {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-neutral);
+  max-width: 320px;
+}
+
+.footer-badges i {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+.footer-heading {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-links a {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-neutral);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--color-secondary);
+}
+
+.footer-divider {
+  margin: 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer-copyright,
+.footer-payments {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--color-neutral);
+}
