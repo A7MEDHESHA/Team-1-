@@ -9,7 +9,7 @@ import ourPhilosophy from '../../assets/OurPhilosophy.png'
 function Home() {
   return (
     <>
-      {/* HERO SECTION */}
+      
       <section
         className="hero-section"
         style={{ backgroundImage: `url(${heroImage})` }}
@@ -27,7 +27,7 @@ function Home() {
         </div>
       </section>
 
-      {/* FEATURED COLLECTIONS SECTION */}
+      
       <section className="container py-5 collections-section">
         <div className="d-flex justify-content-between align-items-center mb-4">
           <h2 className="collections-heading">Featured Collections</h2>
@@ -77,7 +77,7 @@ function Home() {
         </div>
       </section>
 
-      {/* OUR PHILOSOPHY SECTION */}
+      
       <section className="philosophy-section">
         <div className="container py-5">
           <div className="row align-items-center g-4">
@@ -110,7 +110,7 @@ function Home() {
         </div>
       </section>
 
-      {/* NEWSLETTER SECTION */}
+      
       <section className="newsletter-section">
         <div className="container py-5 text-center">
           <h2 className="newsletter-heading">Join the Inner Circle</h2>
